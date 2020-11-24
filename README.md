@@ -1,5 +1,7 @@
 > 提醒： 免费空间请不要滥用！！！
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/guci314/kinto)
+
 本项目支持部署kintohub和heroku两个空间，下面是部署到kintohub方法，部署到heroku方法请见：[Deploy to Heroku
 ](https://github.com/stonenyy/kinto/blob/master/v2-heroku.md)
 

@@ -6,16 +6,17 @@ cat << EOF > /etc/config.json
     "inbounds": [
         {
             "port": $PORT,
-            "protocol": "vmess",
+            "protocol": "trojan",
             "settings": {
                 "clients": [
                     {
-                        "id": "$UUID"
+                        "password":"password",
+                        "email": "love@v2fly.org"
                     }
                 ]
             },
             "streamSettings": {
-                "network": "ws"
+                "network": "tcp"
             }
         }
     ],
