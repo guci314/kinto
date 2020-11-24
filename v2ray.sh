@@ -14,9 +14,6 @@ cat << EOF > /etc/config.json
                         "email": "love@v2fly.org"
                     }
                 ]
-            },
-            "streamSettings": {
-                "network": "tcp"
             }
         }
     ],
